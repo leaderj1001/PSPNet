@@ -35,9 +35,14 @@ Implementing Pyramid Scene Parsing Network (PSPNet) paper using Pytorch
   python dataset/prepared_voc.py
   ```
   4. Train
-  ```
-  python main.py --evaluation False
-  ```
+  - 1 GPU
+    ```
+    python main.py --evaluation False
+    ```
+  - Multi GPUs (ex, 8 GPUs)
+    ```
+    CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_per_node=8 --master_port=$RANDOM main.py
+    ```
   5. Test
   ```
   python main.py --evaluation True
