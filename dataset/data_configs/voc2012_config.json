@@ -1,0 +1,25 @@
+{"label_format": [
+  {"name": "background",  "id": 0,  "train_id": 0,  "has_instance": false, "eval_ignore": false, "color": [  0,   0,   0]},
+  {"name": "aeroplane",   "id": 1,  "train_id": 1,  "has_instance": false, "eval_ignore": false, "color": [128,   0,   0]},
+  {"name": "bicycle",     "id": 2,  "train_id": 2,  "has_instance": false, "eval_ignore": false, "color": [  0, 128,   0]},
+  {"name": "bird",        "id": 3,  "train_id": 3,  "has_instance": false, "eval_ignore": false, "color": [128, 128,   0]},
+  {"name": "boat",        "id": 4,  "train_id": 4,  "has_instance": false, "eval_ignore": false, "color": [  0,   0, 128]},
+  {"name": "bottle",      "id": 5,  "train_id": 5,  "has_instance": false, "eval_ignore": false, "color": [128,   0, 128]},
+  {"name": "bus",         "id": 6,  "train_id": 6,  "has_instance": false, "eval_ignore": false, "color": [  0, 128, 128]},
+  {"name": "car",         "id": 7,  "train_id": 7,  "has_instance": false, "eval_ignore": false, "color": [128, 128, 128]},
+  {"name": "cat",         "id": 8,  "train_id": 8,  "has_instance": false, "eval_ignore": false, "color": [ 64,   0,   0]},
+  {"name": "chair",       "id": 9,  "train_id": 9,  "has_instance": false, "eval_ignore": false, "color": [192,   0,   0]},
+  {"name": "cow",         "id": 10, "train_id": 10, "has_instance": false, "eval_ignore": false, "color": [ 64, 128,   0]},
+  {"name": "diningtable", "id": 11, "train_id": 11, "has_instance": false, "eval_ignore": false, "color": [192, 128,   0]},
+  {"name": "dog",         "id": 12, "train_id": 12, "has_instance": false, "eval_ignore": false, "color": [ 64,   0, 128]},
+  {"name": "horse",       "id": 13, "train_id": 13, "has_instance": false, "eval_ignore": false, "color": [192,   0, 128]},
+  {"name": "motorbike",   "id": 14, "train_id": 14, "has_instance": false, "eval_ignore": false, "color": [ 64, 128, 128]},
+  {"name": "person",      "id": 15, "train_id": 15, "has_instance": false, "eval_ignore": false, "color": [192, 128, 128]},
+  {"name": "pottedplant", "id": 16, "train_id": 16, "has_instance": false, "eval_ignore": false, "color": [  0,  64,   0]},
+  {"name": "sheep",       "id": 17, "train_id": 17, "has_instance": false, "eval_ignore": false, "color": [128,  64,   0]},
+  {"name": "sofa",        "id": 18, "train_id": 18, "has_instance": false, "eval_ignore": false, "color": [  0, 192,   0]},
+  {"name": "train",       "id": 19, "train_id": 19, "has_instance": false, "eval_ignore": false, "color": [128, 192,   0]},
+  {"name": "tvmonitor",   "id": 20, "train_id": 20, "has_instance": false, "eval_ignore": false, "color": [  0,  64, 128]}
+ ],
+ "ignore_mask": 255
+}
