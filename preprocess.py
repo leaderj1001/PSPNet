@@ -29,7 +29,7 @@ class VOC2012Dataset(data.Dataset):
 
         mean = [0.485, 0.456, 0.406]
         std = [0.229, 0.224, 0.225]
-        base_size = [512, 512]
+        base_size = [473, 473]
         crop_size = [473, 473]
         scale_range = [0.5, 2.0]
         ignore_mask = 255
