@@ -53,7 +53,8 @@ Implementing Pyramid Scene Parsing Network (PSPNet) paper using Pytorch
 | :---: | :---: | :---: | :---: | :---: |
 VOC2012 | 8 GPUs | PSPNet50 (Baseline) | 0.7802 | 0.9513 |
 VOC2012 | 8 GPUs | PSPNet50 (Our) | 0.7644 | 0.9400 |
-VOC2012 | 8 GPUs | PSPNet50 (Our + Skip) | 0.77414 | 0.9431 |
+VOC2012 | 8 GPUs | PSPNet50 (Our + Skip(Out1)) | 0.77414 | 0.9431 |
+VOC2012 | 8 GPUs | PSPNet50 (Our + Skip(Out1, Stem)) | 0.78141 | 0.9501 |
 VOC2012 | 1 GPU | PSPNet50 (Our) | 0.7378 | 0.9322 |
 VOC2012 | 8 GPUs | PSPNet101 (Baseline) | 0.7963 | 0.9550 |
 VOC2012 | 8 GPUs | PSPNet101 (Our) | 0.7931 | 0.9487 |
