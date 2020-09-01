@@ -9,7 +9,7 @@ def load_config():
     parser.add_argument('--ignore_mask', type=int, default=255)
     parser.add_argument('--dataset', type=str, default='voc2012')
 
-    parser.add_argument('--batch_size', type=int, default=6)
+    parser.add_argument('--batch_size', type=int, default=8)
     parser.add_argument('--num_workers', type=int, default=0)
     parser.add_argument('--cuda', type=bool, default=True)
     parser.add_argument('--lr', type=float, default=1e-2)
